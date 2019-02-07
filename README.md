@@ -61,11 +61,6 @@ About the names:
 
 abstract/arguments/await/const/continue/debugger/default/delete/do/double/else/enum/eval/export/extends/false/final/finally/float/for/function/goto/if/implements/import/in/instanceof/int/interface/let/long/native/new/null/package/private/protected/public/return/short/static/super/switch/synchronized/this/throw/throws/transient/true/try/typeof/var/void/volatile/while/with/yield
 
-| First Header | Second Header |
-| ------------ | ------------- |
-| Content Cell | Content Cell  |
-| Content Cell | Content Cell  |
-
 ```javascript
 let return = true
 //Uncaught SyntaxError: Unexpected token return
@@ -77,3 +72,64 @@ let return = true
 - names are case-sensitive
 
 ## Primitive Types
+
+- String
+
+```javascript
+let name = "seba";
+```
+
+- Number
+
+```javascript
+let age = 44;
+```
+
+- Boolean
+
+```javascript
+let isChecked = false;
+```
+
+- Undefined
+
+```javascript
+let firstName; //undefined
+```
+
+- null
+
+```javascript
+let secoundName = null;
+```
+
+## Reference Types
+
+- Object
+
+```javascript
+let person = {
+    name: 'Seba',
+    mentalAge: 13,
+    hadBenThere: false
+}
+//to change the object:
+// 1.Dot Notation
+person.name:'Juan'
+// 2. Bracket Notation
+let selection = 'name'
+person[selection] = 'AfroLacio'//to acces in a dinamic way
+
+```
+
+- Arrays
+
+```javascript
+let name = "seba";
+```
+
+- Functions
+
+```javascript
+let name = "seba";
+```
