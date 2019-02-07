@@ -49,5 +49,7 @@ let value = ‘what is new’
 
 ```javascript
 const c = true;
-c = false > c > true;
+c = false;
+//> c
+//> true;
 ```
