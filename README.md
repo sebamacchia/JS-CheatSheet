@@ -54,14 +54,26 @@ c = false;
 //> true;
 ```
 
-About the names: cant be a reserved keyword.  
-List of reserved keyword:
+About the names:
+
+- Cant be a reserved keyword.  
+  List of reserved keyword:
 
 abstract/arguments/await/const/continue/debugger/default/delete/do/double/else/enum/eval/export/extends/false/final/finally/float/for/function/goto/if/implements/import/in/instanceof/int/interface/let/long/native/new/null/package/private/protected/public/return/short/static/super/switch/synchronized/this/throw/throws/transient/true/try/typeof/var/void/volatile/while/with/yield
+
+| First Header | Second Header |
+| ------------ | ------------- |
+| Content Cell | Content Cell  |
+| Content Cell | Content Cell  |
 
 ```javascript
 let return = true
 //Uncaught SyntaxError: Unexpected token return
 ```
+
+- Variable names should be meaningful
+- Can not start with a number
+- can not contain spaces or hyphen (use camel notation)
+- names are case-sensitive
 
 ## Primitive Types
