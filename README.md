@@ -53,3 +53,15 @@ c = false;
 //> c
 //> true;
 ```
+
+About the names: cant be a reserved keyword.  
+List of reserved keyword:
+
+abstract/arguments/await/const/continue/debugger/default/delete/do/double/else/enum/eval/export/extends/false/final/finally/float/for/function/goto/if/implements/import/in/instanceof/int/interface/let/long/native/new/null/package/private/protected/public/return/short/static/super/switch/synchronized/this/throw/throws/transient/true/try/typeof/var/void/volatile/while/with/yield
+
+```javascript
+let return = true
+//Uncaught SyntaxError: Unexpected token return
+```
+
+## Primitive Types
