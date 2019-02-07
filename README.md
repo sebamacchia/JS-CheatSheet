@@ -32,7 +32,9 @@ A Javascript CheatSheet to have in mind bro
 
 ```javascript
 var average = 5;
-var average = (average + 1) / 2 > average > 3;
+var average = (average + 1) / 2;
+//> average
+//> 3;
 ```
 
 - LET
