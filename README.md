@@ -28,18 +28,24 @@ A Javascript CheatSheet to have in mind bro
 
 ## Variables
 
-```javascript
-var average = 5
-var average = (average + 1) / 2
-> average
-> 3
+- VAR
 
+```javascript
+var average = 5;
+var average = (average + 1) / 2 > average > 3;
+```
+
+- LET
+
+```javascript
 let value = ‘hello world’
 let value = ‘what is new’
 // -> throws TypeError: Identifier 'value' has already been declared
+```
 
-const c = true
-c = false
-> c
->true
+- CONST
+
+```javascript
+const c = true;
+c = false > c > true;
 ```
