@@ -25,3 +25,21 @@ A Javascript CheatSheet to have in mind bro
 ```javascript
 <script src="" />
 ```
+
+## Variables
+
+```javascript
+var average = 5
+var average = (average + 1) / 2
+> average
+> 3
+
+let value = ‘hello world’
+let value = ‘what is new’
+// -> throws TypeError: Identifier 'value' has already been declared
+
+const c = true
+c = false
+> c
+>true
+```
