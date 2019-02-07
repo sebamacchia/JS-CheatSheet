@@ -111,10 +111,10 @@ let secoundName = null;
 let person = {
     name: 'Seba',
     mentalAge: 13,
-    hadBenThere: false
+    hadBeenThere: false
 }
 //to change the object:
-// 1.Dot Notation
+// 1. Dot Notation
 person.name:'Juan'
 // 2. Bracket Notation
 let selection = 'name'
@@ -125,11 +125,40 @@ person[selection] = 'AfroLacio'//to acces in a dinamic way
 - Arrays
 
 ```javascript
-let name = "seba";
+let selectedColors = ["red", "blue"];
+selectedClors[2] = "green";
+//>typeof selectedColors
+//>object
+//Arrays are Objects and objects have properties, ex:
+//>console.log(selectedColors.length)
+//>3
 ```
 
 - Functions
 
 ```javascript
-let name = "seba";
+//Function that perform a task
+function greet(name) {
+  //name is a parameter
+  alert("hi " + name);
+}
+greet("seba"); //in this case Seba is an argument
+```
+
+```javascript
+//Function that calculate a value:
+function square(number) {
+  return (number = number * number);
+}
+console.log(square(2));
+//>4
+console.log(square(3));
+//>9
+```
+
+## Operators
+
+- Arithmetic operators
+
+```javascript
 ```
