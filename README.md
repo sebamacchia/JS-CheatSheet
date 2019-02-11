@@ -176,7 +176,36 @@ let e = x * y; //Multiplication
 let r = x / y; //Division
 let t = x % y; //Modulus (division remainder)
 let y = x++; //Increment
+let i = x--; //decrement
+let u = x ** y; //exponentiation
 ```
+
+- Assigment operators
+
+```javascript
+let x = 10 //equal operator
+let x += 5 // adition assigment operator
+let x *= 3 //multiplication asigment
+```
+
+- Comparison Operators
+
+```javascript
+console.log(x > 1); //will return a boolean, true or false
+console.log(x === 1); //is strict equal? (same type and value)
+console.log(x == 1); //is lose equal?(same value)
+console.log(x !== 1); //is not equal?
+```
+
+- Ternary Operator
+
+```javascript
+let points = 150;
+let type = points > 100 ? "gold" : "silver";
+//ternary operator allow to asign diferente values to variables
+```
+
+- Logical operators
 
 para mas adelante
 
