@@ -2,6 +2,8 @@
 
 A Javascript CheatSheet to have in mind bro
 
+---
+
 ## Development Enviorment
 
 - Browser
@@ -11,6 +13,8 @@ A Javascript CheatSheet to have in mind bro
   - Explorer --> Chakra 💩
 - Node
   - (The V8 in C++) 💽
+
+---
 
 ## Separation of concerns
 
@@ -25,6 +29,8 @@ A Javascript CheatSheet to have in mind bro
 ```javascript
 <script src="" />
 ```
+
+---
 
 ## Variables
 
@@ -161,4 +167,23 @@ console.log(square(3));
 - Arithmetic operators
 
 ```javascript
+let x = 10;
+let y = 3;
+
+let q = x + y; //Addition
+let w = x - y; //Subtraction
+let e = x * y; //Multiplication
+let r = x / y; //Division
+let t = x % y; //Modulus (division remainder)
+let y = x++; //Increment
 ```
+
+para mas adelante
+
+---
+
+## Arrays
+
+How to convert a nodeList to an Array
+con el spread operator
+[...nodeList]
