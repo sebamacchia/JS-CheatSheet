@@ -207,7 +207,36 @@ let type = points > 100 ? "gold" : "silver";
 
 - Logical operators
 
+```javascript
+//logical AND &&
+console.log(true && true); //true
+console.log(true && false); //false
+
+//logical OR ||
+console.log(true || false); // true
+console.log(false || false); //false
+
+//logical NOT !
+//convert to opposite
+
+//logical with non booleans
+console.log(true || "seba"); //seba
+
+//falsy:
+//undifined
+//null
+//0
+//false
+//''
+//NaN
+// Anything that is not falsy is trusy
+```
+
+- Logical Operators with Non-booleans
+
 para mas adelante
+
+```
 
 ---
 
@@ -216,3 +245,4 @@ para mas adelante
 How to convert a nodeList to an Array
 con el spread operator
 [...nodeList]
+```
