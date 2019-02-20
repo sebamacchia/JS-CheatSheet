@@ -223,20 +223,121 @@ console.log(false || false); //false
 console.log(true || "seba"); //seba
 
 //falsy:
-//undifined
+//undefined
 //null
 //0
 //false
 //''
 //NaN
 // Anything that is not falsy is trusy
+//Example
+let chosedColer = "red";
+let defalutColoer = "blue";
+color = chosedColer || dafaultColor; //if chosedColer is undefined them color is blue
 ```
 
 - Logical Operators with Non-booleans
 
 para mas adelante
 
+## Control Flow
+
+- if, else
+
+```javascript
+if(condition){
+  statement
+}
+else if(another condition){
+  statement
+}
+else{
+  statement
+}
 ```
+
+- switch & case
+
+```javascript
+switch(variable){
+  case 'guest'
+    statement
+    break
+  case 'aa'
+    statement
+    break
+  default
+     statement
+}
+
+```
+
+## Loops
+
+- for loop
+
+```javascript
+for (initialExpression; condition; incrementExpresion)
+  for (var i = 0; i < 5; i++) {
+    statement;
+  }
+```
+
+- while loop
+
+```javascript
+while (condition) {
+  statement;
+}
+
+let i = 0;
+while (i < 5) {
+  statement;
+  i++;
+}
+```
+
+- do-while loop
+
+Will execute at least one
+
+```javascript
+do {
+  statement;
+} while (condition);
+```
+
+- infinite loops
+
+  reproduce foreva
+
+```javascript
+let i = 0;
+while (i < 5) {
+  statement;
+}
+
+//or
+while (true) {
+  statement;
+}
+```
+
+- for...in
+
+```javascript
+const person = {
+  name: seba
+  age: 30
+}
+for (let ket in person){
+  console.log(key, person[key])
+}
+//name seba
+//age 30
+```
+
+- for..of
 
 ---
 
@@ -245,4 +346,7 @@ para mas adelante
 How to convert a nodeList to an Array
 con el spread operator
 [...nodeList]
+
+```
+
 ```
