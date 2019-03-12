@@ -350,3 +350,9 @@ con el spread operator
 ```
 
 ```
+
+## ShortCuts Papu
+### Rotate an HTML element
+```javascript
+element.style.transform = `rotate(${data})`
+```
